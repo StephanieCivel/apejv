@@ -1,0 +1,76 @@
+/*************AGENDA****************/
+
+.video {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+.diary h2 {
+    background-color: #e6aa02;
+    width: 100%;
+    font-size: 30px;
+}
+
+.diary img {
+    display: flex;
+    width: 50px;
+}
+
+.agenda {
+    display: flex;
+    align-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.diary h3 {
+    color: #000000;
+    font-size: 30px;
+
+}
+
+.agenda ul {
+    font-size: large;
+    color: #000000;
+
+}
+
+.agenda p {
+    font-size: large;
+
+}
+
+.dates {
+    width: 100px;
+    height: 100px;
+    background-color: #e11377;
+    align-items: center;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    background: #ffffff;
+
+    border-radius: 20px;
+    margin: 20px;
+    padding-top: 5px;
+    justify-content: flex-start;
+}
+
+.date p {
+    margin: 0;
+}
+
+/*************PHOTO****************/
